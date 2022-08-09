@@ -1,0 +1,61 @@
+.flex {
+    max-width: 300px;
+    padding: 10px;
+    border: 2px solid black;
+    display: flex;
+}
+
+.item {
+    background-color: aqua;
+    margin: 5px;
+}
+
+.flex-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.flex-item {
+    background: blue;
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.row {
+    flex-direction: crow;
+    background-color: yellow;
+    width: 300px;
+}
+
+.row-reverse {
+    flex-direction: row-reverse;
+    justify-content: start;
+    background-color: yellow;
+    width: 300px;
+}
+
+.column {
+    flex-direction: column;
+    background-color: red;
+    width: 60px;
+}
+
+.column-reverse {
+    flex-direction: column-reverse;
+    background-color: red;
+    width: 60px;
+
+    justify-content: start;
+}
+
+
+
+
+
+

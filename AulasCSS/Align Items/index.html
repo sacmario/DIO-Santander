@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Align-Items</title>
+
+    <style>
+        .container{
+            max-width: 350px;
+            border: 1px solid black;
+            display: flex;
+        }
+
+        .item {
+            background-color: burlywood;
+            margin: 5px;
+            color: white;
+            text-align: center;
+            font-size: 15px;
+            flex: 1;
+        }
+
+        .center {
+           align-items: center; 
+        }
+
+        .stretch{
+            align-items: stretch;
+        }
+
+        .start{
+            align-items: flex-start;
+        }
+
+        .end{
+            align-items: flex-end;
+        }
+
+        .baseline{
+            align-items: baseline ;
+        }
+
+        .column{
+            flex-direction: column;
+        }
+
+        .central{
+            height: 300px;
+            justify-content: center;
+        }
+
+        .central .item {
+            flex: 0;
+            padding: 20px;
+        }
+
+
+    </style>
+
+</head>
+
+<body>
+
+    <p>Center</p>
+    <section class="container center">
+        <div class="item">Lorem ddddd ddt of the etting industry. </div>
+        <div class="item">remaine releaseMaker including versions 1993/06/21 of Lorem Ipsum.</div>
+        <div class="item">Lorem Ipsum comes from  and 1.10.33 of</div>
+    </section>
+    <BR>
+    <BR>
+
+    <p>Stretch</p>
+    <section class="container stretch">
+        <div class="item">Lorenting and typesetting industry. </div>
+        <div class="item">remainesktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+        <div class="item">Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of</div>
+    </section>
+    <br>
+    <br>
+    
+
+    <p>Flex-Start</p>
+    <section class="container start">
+        <div class="item">Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of</div>
+        <div class="item">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+        <div class="item">remai release of sum passages, an with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+    </section>
+    <br>
+    <br>
+    
+    
+    <p>Flex-end</p>
+    <section class="container end">
+        <div class="item">Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of <br></div>
+        <div class="item">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+        <div class="item">etraset sheets containing Lorem Ipsum passages, and more recently sre like Aldus PageMaker including versions of Lorem Ipsum.</div>
+    </section>
+    <br>
+    <br>
+    
+    
+    <p>Baseline</p>
+    <section class="container baseline">
+        <div class="item"> <br><br> Lorem Ipsm sections 1.10.32 and 1.10.33 of <br> <br> <br> </div>
+        <div class="item">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+        <div class="item">remaining essum passages, and more recentlsoftware like Aldus PageMaker including versions of Lorem Ipsum.</div>
+    </section>
+    <br>
+    <br>
+
+    <p>Flex-Start / Column</p>
+    <section class="container start column">
+        <div class="item">Lorem Ipsum comes from sections 1.10.32 and 1.10.33</div>
+        <div class="item">Lorem Ipsum is simply dummy text of the printing</div>
+        <div class="item">remai release of sum passages, an with desktop </div>
+    </section>
+    <br>
+    <br>
+    
+    
+    <p>Flex-end / Column</p>
+    <section class="container end column">
+        <div class="item">Lorem Ipsum com <br></div>
+        <div class="item">Lorem Ipsum is simply du. </div>
+        <div class="item">etraset sheets containing Los PageLorem Ipsum.</div>
+    </section>
+    <br>
+    <br>
+  
+    <p>Center / Column</p>
+    <section class="container center column">
+        <div class="item">Lorem ddddd ddt of the etting industry. </div>
+        <div class="item">remaine releaseMaker including versions 1993/06/21 of Lorem Ipsum.</div>
+        <div class="item">Lorem Ipsum comes from  and 1.10.33 of</div>
+    </section>
+    <BR>
+    <BR>
+
+    <p>Baseline / Column</p>
+    <section class="container baseline column">
+        <div class="item">  Lorem Ipsm sections 1.10.32 and 1.10.33 of</div>
+        <div class="item">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </div>
+        <div class="item">remaining essum passages, and more recentlsoftware like Aldus PageMaker including versions of Lorem Ipsum.</div>
+    </section>
+    <br>
+    <br>
+    
+    <p>Stretch / column</p>
+    <section class="container stretch column">
+        <div class="item">Lorenting and typesetting industry. </div>
+        <div class="item">remainesktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+        <div class="item">Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of</div>
+    </section>
+    <br>
+    <br>
+    
+    <p>Alinhamento central a tela</p>
+    <section class="container central center">
+        <div class="item"> redus PageMaker verorem Ipsum</div>
+    </section>
+</body>
+</html>
