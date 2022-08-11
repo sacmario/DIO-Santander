@@ -1,0 +1,75 @@
+header{
+    display: flex;
+    background-color: #122a57;
+    height: 100px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header .list-items {
+    display: flex;
+    max-width: 250px;
+    width: 100%;
+    justify-content: space-between;
+    font-size: small;
+}
+
+header h1{
+    color: #fff;
+    font-size: 25pt;
+}
+
+header .menu{
+    justify-content: space-between;
+}
+
+.list-items li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.flex-container, .flex-apresentacao{
+    display: flex;
+    max-width: 992px;
+    margin: auto;
+    width: 100%;
+}
+
+.flex-apresentacao{
+    flex-direction: column;
+    justify-content: space-between;    
+    align-items: center;
+}
+
+.apresentacao, .quem-somos{
+    display: flex;
+    flex-direction: row;
+    height: 420px;
+    width: 992px;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 200px;
+    color: #122A57;
+}
+
+.apresentacao h1 {
+    font-size: 37pt;
+    margin-bottom: 15px;
+}
+
+.apresentacao a{
+    display: block;
+    background-color: #122A57;
+    color: #fff;
+    text-align: center;
+    border-radius: 40px;
+    width: 201px;
+    height: 30px;
+    text-decoration: none;
+    line-height: 30px;
+    margin-top: 5px; 
+}
