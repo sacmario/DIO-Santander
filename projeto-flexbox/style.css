@@ -1,5 +1,6 @@
 header{
     display: flex;
+    flex: auto;
     background-color: #122a57;
     height: 100px;
     align-items: center;
@@ -12,6 +13,7 @@ body {
 
 header .list-items {
     display: flex;
+
     max-width: 250px;
     width: 100%;
     justify-content: space-between;
@@ -72,4 +74,125 @@ header .menu{
     text-decoration: none;
     line-height: 30px;
     margin-top: 5px; 
+}
+
+.quem-somos h2 {
+    font-size: 25pt;
+    font-weight: bold;
+    margin-bottom: 25px;
+    
+}
+
+.quem-somos p {
+    margin-bottom: 15px;
+}
+
+.servicos {
+    display: flex;
+    justify-content: center; 
+    background-color: #122a57;  
+    width: 100%;
+    height: 500px;  
+}
+
+.flex-servicos {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    max-width: 992px;
+    width: 100%;
+    color: #fff;
+}
+
+.servicos-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.center-img {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.center-img p {
+    font-size: 15pt;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.servicos h2 {
+    font-size: 30pt;
+    margin-left: 0px;
+    
+}
+
+.botao {
+    display: block;
+    text-align: center;
+    border-radius: 40px;
+    width: 150px;
+    height: 30px;
+    text-decoration: none;
+    line-height: 30px;
+    margin-top: 8px; 
+    font-size: 12pt;
+    font-weight: bold;
+}
+
+.botao-serv {
+    background-color: #fff;
+    color: #122A57;
+}
+
+.planos {
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.div-planos {
+    border: solid 5px #122A57;
+    width: 200px;
+    height: 100%;
+    padding: 10px;
+    color: #122A57;      
+}
+
+.div-planos h3 {
+    font-size: 18pt;
+    font-weight: bold;
+    text-align: center;
+    border-bottom: 3px solid #122A57;
+    padding: 20px;
+    margin-bottom: 20px;     
+}
+
+.botao-planos {
+    background-color: #122A57;
+    color: #fff;
+    margin: 10px;        
+}
+
+.div-planos ul {
+    list-style: square;
+    margin: 5px;
+}
+
+.teste {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    background-color: #122A57;
+    color: #fff;
+    align-items: center;
+    justify-content: center;
+    height: 60px;
 }
